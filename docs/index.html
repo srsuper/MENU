@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/jquery.min.js"></script>
+        <link rel="icon" href="./img/icon.png" />
+        <title>NOBNOB MENU Page</title>
+    </head>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> <a class="navbar-brand" href="./index.html"><img src="./img/nobnob.png"></a>
+
+        <button
+        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="./index.html">ยินดีต้อนรับ<span class="sr-only">(current)</span></a>
+
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="./index.html#menu">Today's Menu</a>
+
+                    </li>
+                    <!--<li class="nav-item"> <a class="nav-link" href="./login.html">Split Page</a>
+
+                    </li>-->
+                    <!--<li class="nav-item"> <a class="nav-link" href="./article.html">Article</a>
+
+                    </li>-->
+                </ul> 
+
+            </div>
+    </nav>
+    
+    <body>
+        <div class="block hero1 my-auto" style="background-image:url(https://scontent.fphs1-1.fna.fbcdn.net/v/t1.6435-9/169156027_3630779213710692_8777308983197467573_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_eui2=AeHENgfg0vpzV5dcY1D8rVwlGupd_6fNL9ka6l3_p80v2e622lhQ5KcV4KpLUvlWHORYAqRpqBzufO_q9WGEcjSE&_nc_ohc=r0WP77bmDvwAX915wHJ&_nc_ht=scontent.fphs1-1.fna&oh=920b301789a6bfb3d2b220753e02dd73&oe=6098AFBA&auto=format&fit=crop&w=1934&q=80);">
+            <div class="container-fluid text-center">
+                 <h1 class="display-2 text-white" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-offset="0">NOBNOB Restaurant</h1>
+
+                <p class="lead text-white" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-delay="600">188/3 หมู่10 ตำบลนครสวรรค์ตก อำเภอเมือง เทศบาลนครนครสวรรค์ 10330 </p>
+                <a
+                href="#menu" class="btn-text lead d-inline-block text-white border-top border-bottom mt-4 pt-1 pb-1"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">View Today's Menu</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="maincontent">
+            <div class="container">
+                <section id="menu">
+                    <div class="block menu1">
+                        <div class="buttons-container"> <a href="#" class="button button--is-active" data-target="pizzaMenu">ต้มยำ</a>
+
+                            <a
+                            href="#" class="button" data-target="coffeeMenu">เมนูแนะนำ</a> <a href="#" class="button" data-target="noodlesMenu">เครื่องดื่ม</a>
+
+                        </div>
+                        <!-- Start Pizza Menu -->
+                        <div class="menu menu--is-visible" id="pizzaMenu" data-aos="fade-up">
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/Picture1.png">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">ต้มข่าไก่กะทิสด</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">150 บ.</span>
+
+                                    </div>
+                                    <p class="item__description">....</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="1" data-name="Cheese Pizza" data-price="150" data-quantity="1"
+                                    data-image="./img/Picture1.png">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/Picture2.png">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">ต้มยำกุ้งแม่น้ำ(หม้อ)</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">180 บ.</span>
+
+                                    </div>
+                                    <p class="item__description">....</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="2" data-name="Hot Pastrami" data-price="180" data-quantity="1"
+                                    data-image="./img/Picture2.png">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/Picture3.png">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">ต้มยำกระดูกอ่อน(หม้อ)</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">150 บ.</span>
+
+                                    </div>
+                                    <p class="item__description">....</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="3" data-name="Classic Pizza" data-price="150" data-quantity="1"
+                                    data-image="./img/Picture3.png">Add to cart</button>
+                                </div>
+                            </div>
+                            <div class="item row align-items-center">
+                                <div class="col-sm-3 pr-5">
+                                    <img class="product-img" src="./img/Picture4.png">
+                                </div>
+                                <div class="details col-sm-9">
+                                    <div class="item__header">
+                                         <h3 class="item__title">ต้มโคล้งปลาช่อนทอด</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">180 บ.</span>
+
+                                    </div>
+                                    <p class="item__description">....</p>
+                                    <button class="btn btn-sm btn-outline-primary my-cart-btn"
+                                    data-id="4" data-name="Country Pizza" data-price="180" data-quantity="1"
+                                    data-image="./img/Picture4.png">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Pizza Menu -->
+                        <!-- Start Coffee Menu -->
+                        <div class="menu" id="coffeeMenu">
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">ทอดมันปลากราย</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">140.-</span>
+
+                                </div>
+                                <p class="item__description">....</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">เบคอน บอน บอน</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">120.-</span>
+
+                                </div>
+                                <p class="item__description">....</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">ปีกไก่ทอดน้ำปลา</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">120.-</span>
+
+                                </div>
+                                <p class="item__description">....</p>
+                            </div>
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">กุ้งอบวุ้นเส้น</h3>
+ <span class="item__dots"></span>
+ <span class="item__price">160.-</span>
+
+                                </div>
+                                <p class="item__description">....</p>
+                            </div>
+                         </div>
+                         <!-- End Coffee Menu -->
+                         <!-- Start Noodles Menu -->
+                         <div class="menu" id="noodlesMenu">
+                            <div class="item">
+                                <div class="item__header">
+                                     <h3 class="item__title">0226 -	Royal Stage (70Cl.)</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">350.-</span>
+                                </div>
+                                </div>
+
+                                <div class="item">
+                            <div class="item__header">
+                                     <h3 class="item__title">0228 -	BLEND 285 (70 Cl.)</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">350.-</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                            <div class="item__header">
+                                     <h3 class="item__title">0223 -	แสงโสม กลม 70 (Cl.)</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">400.-</span>
+                                </div>
+                               </div>
+                            <div class="item">
+                            <div class="item__header">
+                                     <h3 class="item__title">0001 - แสงโสม แบน</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">220.-</span>
+                                </div>
+                               </div>
+                            <div class="item">
+                             <div class="item__header">
+                                     <h3 class="item__title">0222 -	รีเจนซี่ (แบน)</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">399.-</span>
+                                </div>
+                                </div>
+                             <div class="item">
+                            <div class="item__header">
+                                     <h3 class="item__title">0221 -	รีเจนซี่ (กลม)</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">700.-</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                            <div class="item__header">
+                                     <h3 class="item__title">0207 -	Double Black</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">2300.-</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                            <div class="item__header">
+                                     <h3 class="item__title">0214 -	RED LABLE (L)</h3>
+                                    <span class="item__dots"></span>
+                                    <span class="item__price">1100.-</span>
+                                </div>
+                            </div>
+                        </div>
+                          
+                        <!-- End Noodles Menu -->
+                    </div>
+                    <!-- End block -->
+                    <script src="./js/mycart.js"></script>
+                    <script src="./js/mycart-custom.js"></script>
+                </section>
+            </div>
+        </div>
+        <div class="nav-item my-cart-icon">
+            <img src="./img/cart.svg" style="width:20px;"> <span class="badge badge-notify my-cart-badge"> </span>
+
+        </div>
+        <footer class="block footer1 footer text-center">
+            <p>&copy; <a href="https://bootstrapstarter.com/bootstrap-templates/template-fooddelivery-bootstrap-html/">"Food MENU"</a> by
+                PNCK@SKT</p>
+        </footer>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="js/custom-general.js"></script>
+    </body>
+
+</html>
